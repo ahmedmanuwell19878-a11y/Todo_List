@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.log{
+    color: white;
+    text-decoration: none;
+}
+
+.navfluid{
+    background-color: #000080;
+    
+}
+.navgreat ul{
+    display:flex;
+    justify-content:end;
+    gap: 10px;
+    list-style: none;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 19px;
+ 
+  
+}
+.navgreat ul li{
+    cursor: pointer;
+}
+.logo{
+    color: white;
+    padding-top: 13px;
+    cursor: pointer;
+    padding-left: 11px;
+}
+
+
+.btndel{
+    background-color: rgb(107 33 168);
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 21px;
+}
+.completetod{
+    text-decoration: line-through;
+}
+.container{
+    background-color:  #EDE9FE;
+    max-height: 3000px;
+    
+    padding: 20px;
+}
+.textarea{
+    width: 500px;
+    border-radius: 3px;
+}
+.mainissue ul{
+    list-style: none;
+    
+    gap:15px;
+
+}
+.mainissue ul li{
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    font-weight: bold;
+    
+    
+    
+}
+.del{
+    background-color: rgb(107 33 168);
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left:141px;
+  margin-bottom: 6px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.problem {
+    display: flex;
+    justify-content: space-between;
+    
+    }
+
+
+
+    @media only screen and (min-width:200px) and (max-width:575px){
+.textarea{
+    width:278px;
+}
+.mainissue ul li{
+    font-size:15px;
+    margin-left: -66px;
+}
+.problem {
+    display: flex;
+    justify-content: space-around;
+    }
+    .del{
+        margin-left:9px;
+        height: 100%;
+        padding: 0px 3px;
+        font-size:14px;
+        border-radius: 9px;
+        display: flex;
+  justify-content: space-around;
+    }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .del{
+            margin-left:87px;
+            height: 100%;
+            display: flex;
+           
+        }
+        .mainissue ul li{
+            
+            margin-left: -12px;
+        }
+        .problem {
+            display: flex;
+            justify-content: space-between;
+            }
+      }
